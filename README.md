@@ -42,3 +42,10 @@ when calling a `resolve-uri` function with `xml:base` set on the englobing `<xsl
 There is no reason for this compilation to fail.
 
 Unit-test expect no exception is thrown y compilation, but the expectation fails.
+
+## Run unit tests
+
+That's a common maven project, so :
+```
+mvn test
+```
