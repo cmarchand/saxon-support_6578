@@ -79,7 +79,12 @@ public class SchematronCompiler {
   }
 
   private Processor createProcessor() {
-    return new Processor(new Configuration());
+    return new Processor(createConfiguration());
   }
+
+  private static Configuration createConfiguration() {
+    return new Configuration();
+  }
+
 
 }
